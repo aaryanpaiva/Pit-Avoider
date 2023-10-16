@@ -1,0 +1,14 @@
+The robot has 3 IR senssor.
+At 60, 90 and 120 degrees, 'ls', 'cs' and 'rs' respectively.
+
+The operational conditions are as follows: 
+    IF ls,rs and cs are HIGH, i.e it detects no pits, robot moves forward
+    If ls and rs are HIGH but cs is lESS, i.e, it detects a pit infront, robot reverses and rotates left
+    If ls is LOW and cs and rs are HIGH, i.e, it detects a pit in the left, robot rotates right.
+    If ls and cs are HIGH but rs is LOW, i.e, it detects a pit to the right, robot rotates left. 
+    If ls and rs are LOW but cs is HIGH, i.e it detects 2 pits, left and right, robot reverses and rotates left.
+    If ls and cs are LOW, but rs is HIGH, i.e, it detects 2 pits, left and infront, robot reverses and rotates right.
+    If rs and cs are LOW, but ls is HIGH, i.e, it detects 2 pits, right and infront, robot reverses and rotates left.
+    If rs, cs and ls are LOW, i.e, it detects a pit infront, left and right; the robot reverses and rotates left.
+
+The robot will avoid the pits as long as the IR sensors are optimized properly.
