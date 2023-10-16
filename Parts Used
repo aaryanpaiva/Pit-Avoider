@@ -1,0 +1,8 @@
+The robot is made using basic, easy to acquire parts.
+They are as listed below:
+
+  1. IR Sensors x3
+  2. Auton (Sensor + Motor Driver) Arduino Shield
+  3. Gait Shield (Servo Shield)
+  4. Motors x2
+  5. 5V Rechargeable Batteries x2
